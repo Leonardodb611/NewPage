@@ -83,7 +83,7 @@ footer p{
         margin-right: auto; 
     }
     .logo-carrusel{
-        
+        width: 40%;
     }
     .about-img{
         display: block;
@@ -119,6 +119,9 @@ footer p{
     .alpha{
 
     width: 40%;
+    }
+    .logo-carrusel{
+        width: 40%;
     }
 
     }
