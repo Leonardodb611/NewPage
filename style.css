@@ -11,15 +11,22 @@ body{
 header{
     background-color: black;
     width: 100%;
-    height: 8vh;
-    margin-bottom: 5%;
+    height: 12.5vh;
+    margin-bottom: 7%;
+    display: flex;
+    justify-content: center;
+    
+}
+header p{
+    display: flex;
+    justify-content: center;
+    margin-top:3%;
+    font-size: 2rem;
+    color: white;
 }
 footer{
     background-color: black;
-    width: 100%;
-    height: 6vh;
-    text-align: center;
-    margin-top: 2%;
+    
 
 }
 footer p{
@@ -31,10 +38,15 @@ footer p{
 
 .header{
     
-    width: 8%;
     display: block;
     margin-left: auto;
     margin-right: auto; 
+    width: 40%;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 100px;
+    
 }
 
 .logo{
@@ -42,6 +54,7 @@ footer p{
     margin-left: auto;
     margin-right: auto; 
     width: 40%;
+    
 } 
 
 .about-img{
@@ -68,12 +81,61 @@ footer p{
 
 
 @media screen and (max-width: 768px) {
+    header{
+        height: 12.5vh;
+        margin-bottom: 10%; 
+        
+    }
+    header p{
+        font: 1em ;
+        
+    }
     .header{
         
-        width: 15%;
+        width: 20%;
         display: block;
         margin-left: auto;
         margin-right: auto; 
+        margin-bottom: 5%;
+    }
+    .logo-carrusel{
+        height: 40vh;
+        width: 100%;
+    }
+    .about-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        width: 85%;
+    }
+    
+    .text-about{
+    font-size: 15px;
+    text-align: center;
+    }
+    .alpha{
+         width: 40%;
+    }
+    
+    
+}
+@media screen and (min-width: 768px) {
+    header{
+        height: 12.5vh;
+         
+        
+    }
+    header p{
+        font: 1em ;
+        
+    }
+    .header{
+        
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-bottom: 5%;
     }
     .logo-carrusel{
         height: 40vh;
@@ -97,14 +159,55 @@ footer p{
     
 }
     
+
+
+    @media screen and (max-width: 1024px) {
+
+        header{
+            height: 9.5vh;
+            margin-bottom: 10%;
+    
+        }
+        header p{
+            font-size: 1.5rem ;
+    
+        }
+        .header{
+            
+            width: 30%;
+            
+        }
+        .text-about{
+            font-size: 15px;
+            text-align: center;
+            }
+        .alpha{
+    
+        width: 40%;
+        }
+        .logo-carrusel{
+            height: 30vh;
+            width: 100%;
+            
+        }
+    
+        }
+
+
 @media screen and (max-width: 576px) {
 
+    header{
+        height: 10.5vh;
+        margin-bottom: 10%;
+
+    }
+    header p{
+        font-size: 1rem;
+    }
     .header{
         
-        width: 20%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto; 
+        width: 25%;
+        margin-bottom: 5%;
     }
     .text-about{
         font-size: 15px;
@@ -117,8 +220,6 @@ footer p{
     .logo-carrusel{
         height: 30vh;
         width: 100%;
+        
     }
-
-    }
-
-
+}
